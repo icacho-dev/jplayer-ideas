@@ -1,9 +1,12 @@
+![logo]
+
 jPlayer Ideas proyect
 =========
 
 [Watch Demo]
 
-The goal; Audio player using jPlayer core, jPlayer playlist add-on and bootstrap.
+
+The goal; Audio player using jPlayer core, jPlayer playlist add-on and bootstrap (view the [Gallery]).
 
 Including:
 
@@ -43,6 +46,12 @@ mkdir -p public/files/{md,html,pdf}
 ```
 
 
+iPad screenshot
+--------------
+![Imgur](http://i.imgur.com/8aAgoGT.png)
+
+(view full screenshots [Gallery])
+
 License
 ----
 
@@ -58,3 +67,5 @@ By [Swfideas]
 [Twitter Bootstrap]:http://twitter.github.com/bootstrap/
 [jQuery]:http://jquery.com
 [Watch Demo]:http://accentus.mx/webradio/public_html/playlist-custom-player-black.html
+[logo]: http://web.swfideas.com/wp-content/uploads/2013/10/web-logo-137x45.png "Logo SWFideas"
+[Gallery]: http://imgur.com/a/gJRTZ#0
