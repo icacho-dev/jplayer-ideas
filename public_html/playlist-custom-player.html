@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>playlist custom audio player</title>	
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/playlist-custom-player.css">	
+	<!-- ain't no body got time for more css! -->
+</head>
+<body>
+	<!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Web Radio</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Estaciones <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Est1</a></li>
+                <li><a href="#">Est2</a></li>                
+                <li class="divider"></li>
+                <li class="dropdown-header">Grupo1</li>
+                <li><a href="#">EstG1</a></li>
+                <li><a href="#">EstG2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <p class="lead">Web radio player</p>
+      </div>
+      <p class="text-muted">Bienvenido</p>
+      	<div id="jquery_jplayer_1" class="jp-jplayer"></div>      	
+		<div id="jp_container_1" class="jp-audio" style="display:none;">
+			<div class="jp-type-playlist">
+				<h4 class="jp-title">Cargando...</h4>
+				<div class="jp-gui jp-interface">
+				
+				<div class="well">
+					<div class="row">
+						<div class="jp-progress col-lg-12">
+							<div class="jp-seek-bar progress">
+								<div class="jp-play-bar progress-bar progress-bar-success progress-bar-striped" role="progressbar"></div>
+							</div>
+						</div>
+					</div>
+					<div class="btn-toolbar " role="toolbar">
+						<div class="btn-group col-md-4">
+							<a href="javascript:;" class="jp-previous btn btn-default" tabindex="1"><span class="glyphicon glyphicon-step-backward"></span></a>
+							<a href="javascript:;" class="jp-play btn btn-default" tabindex="1"><span class="glyphicon glyphicon-play"></span></a>
+							<a href="javascript:;" class="jp-pause btn btn-default" tabindex="1"><span class="glyphicon glyphicon-pause"></a>
+							<a href="javascript:;" class="jp-next btn btn-default" tabindex="1"><span class="glyphicon glyphicon-step-forward"></span></a>
+							<a href="javascript:;" class="jp-stop btn btn-default" tabindex="1"><span class="glyphicon glyphicon-stop"></span></a>
+						</div>
+						<div class="btn-group col-md-4">							
+							<a href="javascript:;" class="jp-mute btn btn-default" tabindex="1" title="mute"><span class="glyphicon glyphicon-volume-off"></span></a>
+							<a href="javascript:;" class="jp-unmute btn btn-info" tabindex="1" title="unmute"><span class="glyphicon glyphicon-volume-off"></span></a>
+							<a href="javascript:;" class="jp-volume-max btn btn-default" tabindex="1" title="max volume"><span class="glyphicon glyphicon-volume-up"></span></a>
+						</div>												
+					</div>					
+					<div class="col-md-4">		
+						<a class="jp-volume-bar" href="#">|&lt;----------&gt;|</a>											
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">						
+						<div class="jp-time-holder text-center">
+								<div class="jp-current-time text-primary"></div>
+								<div class="jp-duration text-muted"></div>
+						</div>
+					</div>										
+				</div>				
+					<!--<ul class="jp-controls">
+						<li><a href="javascript:;" class="jp-previous" tabindex="1">previous</a></li>
+						<li><a href="javascript:;" class="jp-play btn btn-primary btn-lg" tabindex="1"><span class="glyphicon glyphicon-play"></span></a></li>
+						<li><a href="javascript:;" class="jp-pause btn btn-primary btn-lg" tabindex="1"><span class="glyphicon glyphicon-pause"></a></li>
+						<li><a href="javascript:;" class="jp-next" tabindex="1">next</a></li>
+						<li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>
+						<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+						<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+						<li><a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume">max volume</a></li>	
+					</ul>-->
+					
+					
+					<!--<ul class="jp-toggles">
+						<li><a href="javascript:;" class="jp-shuffle" tabindex="1" title="shuffle">shuffle</a></li>
+						<li><a href="javascript:;" class="jp-shuffle-off" tabindex="1" title="shuffle off">shuffle off</a></li>
+						<li><a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">repeat</a></li>
+						<li><a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">repeat off</a></li>
+					</ul>-->
+				</div>
+				<div class="jp-playlist">
+					<ul>
+						<li></li>
+					</ul>
+				</div>
+				<div class="jp-no-solution">
+					<span>Update Required</span>
+					To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+				</div>
+			</div>
+		</div>
+    </div>
+    <!-- /.container -->
+    <div class="footer">
+      <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+      </div>
+    </div>
+	<!--  Begin page scripts
+	=============================== -->
+	<script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="../bower_components/jplayer/jquery.jplayer/jquery.jplayer.js"></script>
+	<script type="text/javascript" src="../bower_components/jplayer/add-on/jplayer.playlist.js"></script>
+	<script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/playlist-custom-player.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Squada+One);
+@import url(http://fonts.googleapis.com/css?family=Nova+Square);
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+  
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  /*background: url(../img/bg0.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container,
+body > .container-fluid {
+  padding: 60px 15px 0;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.main-row {
+  color: #A3A3A3;
+  background: #FFF;
+  padding: .5em;
+}
+
+.secondary-row {
+  color: #A3A3A3;
+  background: rgba(255, 255, 255, 1);
+  padding: .5em;
+}
+
+.third-row {
+  color: #FFFFFF;
+  background: #0FB66A;
+}
+
+.big-button {
+  font-size: 1.8em;
+}
+
+.estacionitem {
+  text-transform:capitalize;
+}
+
+.titulo-estacion {
+  color: red;
+}
+
+.titulo-icon {
+  margin-right: .5em;
+  color: #D5D5D5;
+}
+
+small.status {
+  font-family: 'Nova Square', cursive;
+}
+/* Custom jPlayer classes 
+------------------------------------------------- */ 
+.jp-title {
+  font-family: 'Squada One', cursive;
+}
+.jp-controls > li {
+  display: inline;
+}
+
+.jp-playlist {
+  height: 400px;
+  overflow: auto;
+  display: none;
+}
+
+.jp-time-holder > div,
+.jp-current-time,
+.jp-duration {  
+  font-family: 'Nova Square', cursive;
+  font-size: small;
+  display: inline;
+}
+
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "jPlayer",
+  "version": "2.7.1",
+  "main": [
+    "./jquery.jplayer/jquery.jplayer.js",
+    "./skin/pink.flag/jplayer.pink.flag.css"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7.2"
+  },
+  "homepage": "https://github.com/happyworm/jPlayer",
+  "_release": "2.7.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.7.1",
+    "commit": "3c186b1a33c3573ddfd8c77262b55f7fe76510f9"
+  },
+  "_source": "git://github.com/happyworm/jPlayer.git",
+  "_target": "~2.7.1",
+  "_originalSource": "jplayer",
+  "_direct": true
+}
