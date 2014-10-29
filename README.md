@@ -1,6 +1,8 @@
 jPlayer Ideas proyect
 =========
 
+[Watch Demo]
+
 The goal; Audio player using jPlayer core, jPlayer playlist add-on and bootstrap.
 
 Including:
@@ -55,3 +57,4 @@ By [Swfideas]
 [Ace Editor]:http://ace.ajax.org
 [Twitter Bootstrap]:http://twitter.github.com/bootstrap/
 [jQuery]:http://jquery.com
+[Watch Demo]:http://accentus.mx/webradio/public_html/playlist-custom-player-black.html
